@@ -1,4 +1,4 @@
-# AeroPack — Live Check-In Scoreboard
+# [AeroPack — Live Check-In Scoreboard] (https://sanajamkatel.github.io/aeropack-checkin-scoreboard/)
 
 A live scoreboard built for **AeroPack**, Aeropay's back-to-school kit-packing
 intern service project.
