@@ -76,7 +76,7 @@
 
   .brand-text h1{
     margin: 0;
-    font-size: clamp(1.05rem, 1.9vh + 0.4rem, 1.5rem);
+    font-size: clamp(1.3rem, 2.4vh + 0.5rem, 1.9rem);
     letter-spacing: -0.01em;
     font-weight: 800;
     color: var(--aqua-deep);
@@ -85,7 +85,7 @@
 
   .brand-text p{
     margin: 2px 0 0;
-    font-size: clamp(0.68rem, 1vh + 0.2rem, 0.85rem);
+    font-size: clamp(0.82rem, 1.2vh + 0.25rem, 1.02rem);
     color: var(--ink-muted);
     font-weight: 500;
     white-space: nowrap;
@@ -108,7 +108,7 @@
   }
 
   .total-label{
-    font-size: clamp(0.62rem, 0.8vh + 0.2rem, 0.75rem);
+    font-size: clamp(0.78rem, 1vh + 0.25rem, 0.92rem);
     text-transform: uppercase;
     letter-spacing: 0.09em;
     font-weight: 700;
@@ -116,7 +116,7 @@
   }
 
   .total-number{
-    font-size: clamp(1.7rem, 3.6vh + 0.4rem, 2.6rem);
+    font-size: clamp(2.1rem, 4.4vh + 0.5rem, 3.2rem);
     font-weight: 800;
     color: var(--aqua-deep);
     font-variant-numeric: tabular-nums;
@@ -180,7 +180,7 @@
 
   .kits-label{
     flex: 0 0 auto;
-    font-size: clamp(0.68rem, 0.9vh + 0.2rem, 0.82rem);
+    font-size: clamp(0.85rem, 1.1vh + 0.25rem, 1rem);
     font-weight: 800;
     color: var(--aqua-deep);
     text-transform: uppercase;
@@ -197,7 +197,7 @@
   .kits-text{
     flex: 0 0 auto;
     font-weight: 700;
-    font-size: clamp(0.68rem, 0.9vh + 0.2rem, 0.82rem);
+    font-size: clamp(0.85rem, 1.1vh + 0.25rem, 1rem);
     color: var(--ink-muted);
     font-variant-numeric: tabular-nums;
     white-space: nowrap;
@@ -212,13 +212,13 @@
 
   .stepper-btn{
     flex: 0 0 auto;
-    width: clamp(32px, 4.2vh, 42px);
-    height: clamp(32px, 4.2vh, 42px);
+    width: clamp(40px, 5.2vh, 52px);
+    height: clamp(40px, 5.2vh, 52px);
     border-radius: 50%;
     border: 1.6px solid rgba(11,110,128,0.25);
     background: var(--aqua-tint);
     color: var(--aqua-deep);
-    font-size: 1.25rem;
+    font-size: 1.55rem;
     font-weight: 800;
     line-height: 1;
     display: flex;
@@ -234,14 +234,14 @@
     flex: 0 0 auto;
     min-width: 3em;
     text-align: center;
-    font-size: clamp(1.2rem, 2vh + 0.4rem, 1.7rem);
+    font-size: clamp(1.5rem, 2.5vh + 0.5rem, 2.1rem);
     font-weight: 800;
     color: var(--aqua-deep);
     font-variant-numeric: tabular-nums;
     background: var(--aqua-tint);
     border: 1.6px dashed rgba(11,110,128,0.35);
     border-radius: var(--radius-sm);
-    padding: 4px 12px;
+    padding: 6px 14px;
     cursor: text;
     font-family: inherit;
   }
@@ -258,7 +258,7 @@
     flex: 0 0 auto;
     width: 4.2em;
     text-align: center;
-    font-size: clamp(1.2rem, 2vh + 0.4rem, 1.7rem);
+    font-size: clamp(1.5rem, 2.5vh + 0.5rem, 2.1rem);
     font-weight: 800;
     color: var(--aqua-deep);
     font-variant-numeric: tabular-nums;
@@ -279,15 +279,15 @@
     border: 1.5px solid rgba(11,110,128,0.22);
     color: var(--aqua-deep);
     font-weight: 700;
-    font-size: clamp(0.72rem, 0.9vh + 0.3rem, 0.86rem);
-    padding: 9px 16px;
+    font-size: clamp(0.88rem, 1.1vh + 0.35rem, 1.05rem);
+    padding: 12px 20px;
     border-radius: 999px;
     cursor: pointer;
     transition: background 150ms ease, transform 100ms ease, border-color 150ms ease, opacity 150ms ease;
     white-space: nowrap;
   }
 
-  .icon-btn svg{ width: 16px; height: 16px; }
+  .icon-btn svg{ width: 19px; height: 19px; }
 
   .icon-btn:hover:not(:disabled){ background: var(--aqua-tint); border-color: rgba(11,110,128,0.4); }
   .icon-btn:active:not(:disabled){ transform: scale(0.94); }
@@ -362,15 +362,15 @@
   }
 
   .team-icon{
-    width: clamp(18px, 3vh, 28px);
-    height: clamp(18px, 3vh, 28px);
+    width: clamp(24px, 3.8vh, 36px);
+    height: clamp(24px, 3.8vh, 36px);
     color: var(--aqua-deep);
     flex: 0 0 auto;
   }
 
   .team-name{
     font-weight: 700;
-    font-size: clamp(0.62rem, 0.85vw + 0.35rem, 0.88rem);
+    font-size: clamp(0.8rem, 1.05vw + 0.45rem, 1.1rem);
     text-align: center;
     color: var(--ink);
     line-height: 1.15;
@@ -378,7 +378,7 @@
   }
 
   .team-count{
-    font-size: clamp(1.15rem, 1.8vh + 0.4rem, 1.7rem);
+    font-size: clamp(1.5rem, 2.3vh + 0.5rem, 2.15rem);
     font-weight: 800;
     color: var(--aqua-deep);
     font-variant-numeric: tabular-nums;
@@ -416,7 +416,7 @@
 
   .leaderboard-panel h2{
     margin: 0 0 clamp(6px, 1vh, 10px);
-    font-size: clamp(0.68rem, 0.9vh + 0.2rem, 0.8rem);
+    font-size: clamp(0.85rem, 1.1vh + 0.25rem, 1rem);
     text-transform: uppercase;
     letter-spacing: 0.09em;
     font-weight: 800;
@@ -450,13 +450,13 @@
 
   .lb-rank{
     flex: 0 0 auto;
-    width: clamp(20px, 2.6vh, 27px);
-    height: clamp(20px, 2.6vh, 27px);
+    width: clamp(25px, 3.3vh, 34px);
+    height: clamp(25px, 3.3vh, 34px);
     border-radius: 50%;
     background: var(--aqua-tint);
     color: var(--aqua-deep);
     font-weight: 800;
-    font-size: clamp(0.65rem, 0.9vh + 0.15rem, 0.78rem);
+    font-size: clamp(0.8rem, 1.05vh + 0.2rem, 0.95rem);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -471,7 +471,7 @@
     flex: 1 1 auto;
     min-width: 0;
     font-weight: 700;
-    font-size: clamp(0.68rem, 0.85vw + 0.3rem, 0.86rem);
+    font-size: clamp(0.85rem, 1.05vw + 0.4rem, 1.05rem);
     color: var(--ink);
     white-space: nowrap;
     overflow: hidden;
@@ -481,7 +481,7 @@
   .lb-count{
     flex: 0 0 auto;
     font-weight: 800;
-    font-size: clamp(0.75rem, 0.9vw + 0.3rem, 0.94rem);
+    font-size: clamp(0.92rem, 1.1vw + 0.4rem, 1.15rem);
     color: var(--aqua-deep);
     font-variant-numeric: tabular-nums;
     min-width: 1.6em;
