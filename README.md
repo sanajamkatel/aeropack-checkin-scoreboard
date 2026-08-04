@@ -1,8 +1,7 @@
 # AeroPack — Live Check-In Scoreboard
 
 A live scoreboard built for **AeroPack**, Aeropay's back-to-school kit-packing
-volunteer event. It runs on a shared iPad or laptop at the entrance and tracks
-two separate things:
+intern service project.
 
 - **Check-ins (people)** — who showed up, by team. This is what the team
   competition is scored on.
